@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario CV</title>
+	<style>
+		:root{
+			background-color: rgb(15, 15, 15);
+			padding-left: 300px;
+			padding-right: 350px;
+
+		}
+		section{
+			background-color: rgb(30, 103, 240);
+			padding: 10px 10px;
+		}
+		header{
+			background-color: rgb(30, 103, 240);
+			text-align: center;
+			padding: 15px 15px;
+			font-size: 25px;
+			color: white;
+		}
+
+		.formulario-contacto{
+			padding: 50px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			background-color: rgb(194, 184, 204);
+    
+		}
+		.form-group{
+			padding-top: 20px;
+			padding-bottom: 20px;
+			font-weight: bold;
+		}
+
+		.form-checkbox{
+			padding-top: 20px;
+		}
+		.input-contacto label{
+			color: var(--blanco);
+			font-family: var(--parrafos);
+			display: block;
+			margin: 1rem 0;
+			font-weight: bold;
+		}
+
+		.input-contacto input{
+			padding: 1.2rem 1rem;
+			font-family: var(--parrafos);
+		}
+
+		.input-contacto input, .input-contacto  textarea{
+			width: 100%;
+			outline: none;
+		}  
+
+		.input-contacto  textarea{
+		outline: none; 
+		}
+
+		.input-contacto input[type = "submit"]{
+			width: auto;
+			padding: 1rem 3rem;
+			
+		}
+
+		.input-contacto input[type = "submit"]:hover{
+			background-color: var(--blanco);
+			color: var(--azulClaro);
+		}
+		.group{
+			padding-top: 20px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		.botton{
+			padding-top: 10px;
+
+		}
+		.btn{
+			background-color: blue;
+			color: antiquewhite;
+		}
+
+	</style>
+
+</head>
+<body>
+	<header>
+		<p>FORMULARIO CV</p>
+	</header>
+	<section >
+		<div class="section-center">
+		
+			<form class="formulario-contacto">
+				<div class="input-contacto">
+					<label for="nombre">Nombre y Apellido </label>
+					<input type="text" id="nombre" placeholder="Nombre y Apellido">
+				</div>
+
+				<div class="input-contacto">
+					<label for="nombre">Fecha de Nacimiento </label>
+					<input class="form-control" type="date" required>
+				</div>
+
+				<div class="input-contacto">
+					<label for="nombre">Ocupación </label>
+					<input type="text" id="nombre" placeholder="Ocupación">
+				</div>
+
+
+				<div class="input-contacto">
+					<label for="nombre">Correo</label>
+					<input type="text" id="correo" placeholder="example@gmail.com">
+				</div>
+
+				<div class="input-contacto">
+					<label for="nombre">Telefono</label>
+					<input type="text" id="telefono" placeholder="998432672">
+				</div>
+
+				<div class="input-contacto">
+					<label for="nombre">Nacionalidad</label>
+					<select class="form-control">
+						<option>Perú</option>
+						<option>Colombia</option>
+						<option>Brasil</option>
+						<option>Ecuador</option>
+						<option>Chile</option>
+						<option>Bolivia</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label for="nombre">Nivel de Ingles</label>
+					<hr>
+					<div class="form-checkbox">
+						
+						<label for="basico">
+							<input type="radio" id="basico" name="nivel-idioma">
+							<span></span>básico
+						</label>
+						<label for="intermedio">
+							<input type="radio" id="intermedio" name="nivel-idioma">
+							<span></span>intermedio
+						</label>
+						<label for="avanzado">
+							<input type="radio" id="avanzado" name="nivel-idioma">
+							<span></span>avanzado
+						</label>
+						<label for="fluido">
+							<input type="radio" id="fluido" name="nivel-idioma">
+							<span></span>fluido
+						</label>
+					</div>
+				</div>
+
+				<div class="input-contacto">
+					<label for="nombre">Lenguajes de Programación</label>
+					<hr>
+					<select style="font-size:18px;" id="multiple-checkboxes" multiple="multiple"  >
+					<option value="php">C++</option>
+					<option value="python">Python</option>
+					<option value="javascript">JavaScript</option>
+					<option value="java">Java</option>
+					<option value="sql">SQL</option>
+					<option value="jquery">Jquery</option>
+					<option value=".net">.Net</option>
+					</select>
+					
+				</div>
+
+				<div class="form-group">
+					<label for="nombre">Aptitudes</label>
+					<hr>
+					<input list="aptitudes" id="ice-cream-choice" name="ice-cream-choice">
+					<datalist id="aptitudes">
+					   <option value="Resolución de problemas">Resolución de problemas</option>
+					   <option value="Formación continua">Formación continua</option>
+					   <option value="Liderazgo">Liderazgo</option>
+					   <option value="Creatividad">Creatividad</option>
+					   <option value="Competencias digitales">Competencias digitales</option>
+					   
+					</datalist>
+				</div>	
+				
+				<div class="form-group">
+					<span class="form-label">Habilidades</span>
+					<hr>
+					<div class="group">  
+					  <input type="checkbox" id="intermedio" name="habilidades">
+					  <span></span>Iniciativa
+					  <input type="checkbox" id="intermedio" name="habilidades">
+					  <span></span>Trabajo en equipo
+					  <input type="checkbox" id="intermedio" name="habilidades">
+					  <span></span>Manejo de idiomas
+					  <input type="checkbox" id="intermedio" name="habilidades">
+					  <span></span>Interrelación con otros
+					</div>
+					<hr>
+				</div>				
+
+				<div class="input-contacto">
+					<label for="nombre">Perfil</label>
+					<textarea ></textarea>
+				</div>
+
+				<div class="botton">
+					<input type="submit" value="Enviar" class="btn">
+				</div>
+			</form>
+		</div>
+
+	</section>
+
+
+	
+</body>
+</html>
