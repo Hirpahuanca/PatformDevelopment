@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Formulario</title>
+
+</head>
+<body>
+    <main class="form">
+
+        <section class="container">
+
+            <h1 class="title">Formulario</h1>
+            <!--formulario-->
+            <form action="/" class="formulario" id="formulario">
+                <!--grupo nombre-->
+                <div class="formulario_grupo " id="grupo_nombre">
+                    <label for="nombre" class="formulario_label">Nombre y Apellido</label>
+                    <div class="formulario_grupo_input">
+                        <input type="text" id="nombre" class="formulario_input" name="nombre" placeholder="Nombre y Apellido">
+                        <i class="formulario_validacion fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formulario_error">El campo solo puede contener letras</p>
+                </div>
+
+                <!--grupo fecha
+                <div class="formulario_grupo" id="grupo_fecha">
+                    <label for="fecha" class="formulario_label">Fecha de Nacimiento</label>
+                    <div class="formulario_grupo_input">
+                        <input class="formulario_input" name="fecha" type="date" required>
+                    </div>
+                    <p class="formulario_error">El campo vacío</p>
+                </div>-->
+
+                <!--grupo ocupacion-->
+                <div class="formulario_grupo" id="grupo_ocupacion">
+                    <label for="ocupacion" class="formulario_label">ocupacion</label>
+                    <div class="formulario_grupo_input">
+                        <input type="text" id="ocupacion" class="formulario_input" name="ocupacion" placeholder="ocupacion">
+                        <i class="formulario_validacion fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formulario_error">El campo solo puede contener letras</p>
+                </div>                
+                <!--grupo contacto-->
+                <div class="formulario_grupo" id="grupo_contacto">
+                    <label for="contacto" class="formulario_label">Correo</label>
+                    <div class="formulario_grupo_input">
+                        <input type="text" id="contacto" class="formulario_input" name="contacto" placeholder="example@gmail.com">
+                        <i class="formulario_validacion fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formulario_error">El campo solo puede contener letras</p>
+                </div>  
+                <!--grupo telefono-->  
+                <div class="formulario_grupo" id="grupo_telefono">
+                    <label for="telefono" class="formulario_label">Telefono</label>
+                    <div class="formulario_grupo_input">
+                        <input type="text" id="telefono" class="formulario_input" name="telefono" placeholder="999999999">
+                        <i class="formulario_validacion fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formulario_error">El campo solo puede contener letras</p>
+                </div>                           
+                <!--grupo nacionalidad
+                <div class="formulario_grupo" id="grupo_nacionalidad">
+                    <label for="nacionalidad" class="formulario_label">Nacionalidad</label>
+                    <div class="formulario_grupo_input">
+                        <select class="formulario-control">
+                            <option>Perú</option>
+                            <option>Colombia</option>
+                            <option>Brasil</option>
+                            <option>Ecuador</option>
+                            <option>Chile</option>
+                            <option>Bolivia</option>
+                        </select>
+                    </div>
+                    <p class="formulario_error">El campo vacio</p>
+                </div>-->
+
+                <!--INGLES----------
+                <div class="formulario_grupo" id="grupo_ingles">
+                    <label for="ingles" class="formulario_label">Nivel de Ingles</label>
+                    <div class="formulario_grupo_input">
+                        <div class="formulario-checkbox">
+                            <label for="basico">
+                                <input type="radio" id="basico" name="nivel-idioma">
+                                <span></span>básico
+                            </label>
+                            <label for="intermedio">
+                                <input type="radio" id="intermedio" name="nivel-idioma">
+                                <span></span>intermedio
+                            </label>
+                            <label for="avanzado">
+                                <input type="radio" id="avanzado" name="nivel-idioma">
+                                <span></span>avanzado
+                            </label>
+
+                        </div>
+                    </div>
+                    <p class="formulario_error">El campo esta vacio</p>
+                </div> -----------> 
+                
+                <!--LENGUAJE DE PROGRAMACION
+                <div class="formulario_grupo" id="grupo_programcion">
+                    <label for="programcion" class="formulario_label">Lenguajes de Programción</label>
+                    <div class="formulario_grupo_input_h">
+                        <select style="font-size:18px;" id="multiple-checkboxes" multiple="multiple"  >
+                            <option value="php" class="name_lenguajeP">C++</option>
+                            <option value="python" class="name_lenguajeP">Python</option>
+                            <option value="javascript" class="name_lenguajeP">JavaScript</option>
+                            <option value="java" class="name_lenguajeP">Java</option>
+                            <option value="sql" class="name_lenguajeP">SQL</option>
+                            <option value="jquery" class="name_lenguajeP">Jquery</option>
+                            <option value=".net" class="name_lenguajeP">.Net</option>
+                        </select>
+                    </div>
+                    <p class="formulario_error">El campo vacío</p>
+                </div> -->
+
+                <!--grupo experiencia laboral-->
+                <div class="formulario_grupo formulario_grupo_experiencia" id="grupo_experiencia">
+                    <label for="experiencia" class="formulario_label">Experiencia Laboral</label>
+                    <div class="formulario_grupo_input" id="grupo_experiencia_l">
+                        <input type="text" id="experiencia" class="formulario_input" name="experiencia" placeholder="Experiencia Laboral">
+                        <i class="formulario_validacion fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formulario_error">El campo solo puede contener letras</p>
+                    <button  class="new" onclick='addInput()'>Añadir mas+</button>
+                </div>                
+                <!--grupo fromacion-->
+                <div class="formulario_grupo" id="grupo_formacion">
+                    <label for="formacion" class="formulario_label">Formacion</label>
+                    <div class="formulario_grupo_input" id="formacion_grupo">
+                        <input type="text" id="formacion" class="formulario_input" name="formacion" placeholder="Formacion">
+                        <i class="formulario_validacion fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formulario_error">El campo solo puede contener letras</p>
+                    <button class="new" onclick='addInput2()'>Añadir mas+</button>
+                </div> 
+               
+
+                 <!--idiomas-->
+                 <div class="formulario_grupo" id="grupo_idiomas">
+                    <label for="idiomas" class="formulario_label">Idiomas</label>
+                    <div class="formulario_grupo_input" id="grupoidiomas">
+                        <input type="text" id="idiomas" class="formulario_input" name="idiomas" placeholder="Idiomas">
+                        <i class="formulario_validacion fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formulario_error">El campo solo puede contener letras</p>
+                    <button  class="new" onclick='addInput3()'>Añadir mas+</button>
+                </div>                 
+                <!--APTITUDES-->
+                <div class="formulario_grupo" id="grupo_aptitudes">
+                    <label for="aptitudes" class="formulario_label">Aptitudes</label>
+                    <div class="formulario_grupo_input">
+                        <input type="text" id="aptitudes" class="formulario_input" name="aptitudes" placeholder="Aptitudes">
+                        <i class="formulario_validacion fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formulario_error">El campo solo puede contener letras</p>
+                    <button  class="new" onclick='addInput4()'>Añadir mas+</button>
+                </div> 
+
+                <!--habilidades-->
+                <div class="formulario_grupo" id="grupo_habilidad">
+                    <label for="habilidad" class="formulario_label">Habilidades</label>
+                    <div class="formulario_grupo_input">
+                        <input type="text" id="habilidad" class="formulario_input" name="habilidad" placeholder="Habilidades">
+                        <i class="formulario_validacion fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formulario_error">El campo solo puede contener letras</p>
+                    <button  class="new" onclick='addInput5()'>Añadir mas+</button>
+                </div> 
+               
+                <!-- perfil-->
+                <div class="formulario_grupo formulario_grupo_perfil" id="grupo_perfil">
+                    <label for="perfil" class="formulario_label">Perfil</label>
+                    <div class="formulario_grupo_input">
+                        <textarea id="perfil" class="formulario_input" name="perfil"></textarea>
+                    </div>
+                    <p class="formulario_error">El campo vacio</p>
+                </div>
+                <!--wRNING-->
+                <div class="formulario_mensaje" id="formulario_mensaje">
+                    <p><i class="fa-sharp fa-solid fa-triangle-exclamation"></i>Error</p>
+
+                </div>
+                <!-- button-->
+                <div class="formulario_grupo formularioEnviar">
+                    <button type="submit" class="formulario_button">Enviar</button>
+                    <p class="formulario_msj_exito" id="formulario_msj_exito">Formulario enviado exitosamente</p>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="main.js"></script>
+    <!--SCRIPT para los iconos-->
+    <script src="https://kit.fontawesome.com/a1a77242c0.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
