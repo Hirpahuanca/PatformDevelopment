@@ -150,6 +150,34 @@ formulario.addEventListener('submit',(e) => {
  
    
 });
+function newpestaña(){
+    var nombre=document.getElementById("nombre").value;
+    var ocupacion=document.getElementById("ocupacion").value;
+    var contacto=document.getElementById("contacto").value;
+    var telefono=document.getElementById("telefono").value;
+    var formacion=document.getElementById("formacion").value;
+    var experiencia=document.getElementById("experiencia").value;
+    var idiomas=document.getElementById("idiomas").value;
+    var aptitudes=document.getElementById("aptitudes").value;
+    var habilidad=document.getElementById("habilidad").value;
+    var perfil=document.getElementById("perfil").value;
+
+
+    var contenido="<h1>valores de formulario: </h1>";
+
+    contenido+="<p>nombre: "+nombre+"</p>";
+    contenido+="<p>ocupacion: "+ocupacion+"</p>";
+    contenido+="<p>contacto: "+contacto+"</p>";
+    contenido+="<p>telefono: "+telefono+"</p>";
+    contenido+="<p>formacion: "+formacion+"</p>";
+    contenido+="<p>experiencia: "+experiencia+"</p>";
+    contenido+="<p>idiomas: "+idiomas+"</p>";
+    contenido+="<p>aptitudes: "+aptitudes+"</p>";
+    contenido+="<p>habilidad: "+habilidad+"</p>";
+    contenido+="<p>perfil: "+perfil+"</p>";
+    var newpestaña=window.open();
+    newpestaña.document.write(contenido);
+}
 
 
 
