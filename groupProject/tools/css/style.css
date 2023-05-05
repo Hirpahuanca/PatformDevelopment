@@ -265,7 +265,7 @@ img{
 .home{
     position: relative;
     padding-bottom: 0;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url('/tools/img/bg.webp');
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url('../img/bg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.3);
@@ -390,7 +390,7 @@ img{
 
 /*-----------------------------------------PROGRAM----------------------*/
 .program{
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url('/tools/img/bg2.webp');
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url('../img/bg2.webp');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -549,13 +549,14 @@ img{
 /*-----------------------------------------PRINCING------------------*/
 
 .pricing{
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url('/tools/img/bg3.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url('../img/bg3.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 
 .pricing__container{
+    padding-bottom: 5rem;
     grid-template-columns: 285px;
     justify-content: center;
     row-gap: 2rem;
