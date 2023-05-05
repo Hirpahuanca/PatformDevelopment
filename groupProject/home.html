@@ -23,8 +23,8 @@
 </head>
 <body>
     <!----------------------------------HEADER------------------------------------------------------->
-    <header class="headerHome" id="header">
-        <nav class="navHome container">
+    <header class="header" id="header">
+        <nav class="nav container">
             <a href="#" class="nav__logo">
                 <img src="tools/img/logo.png" alt="logo">FITNESS CLUB
             </a>
@@ -34,14 +34,18 @@
                         <a href="#home" class="nav__link active-link">Menu</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#program" class="nav__link ">Program</a>
+                        <a href="#features" class="nav__link ">Features</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#choose" class="nav__link">Choose Us</a>
+                        <a href="#trainers" class="nav__link">Entrenadores</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#pricing" class="nav__link">Pricing</a>
+                        <a href="#videos" class="nav__link">Contenido</a>
                     </li>
+
+                    <div class="nav__link">
+                        <a href="#footer" class="button nav__button">Salir</a>
+                    </div>
                 </ul>
 
                 <div class="nav__close" id="nav-close">
@@ -54,127 +58,373 @@
             <div class="nav__toggle" id="nav-toggle">
                 <i class="ri-menu-line"></i>
             </div>
+
         </nav>
-    </header> 
+    </header>
 
 
-    <!------------------------------------------------------body-->
-    <section class="trainer section" id="trainer">
-        <div class="container">
-            <div class="sectionHome__data">
-                <h2 class="section__subtitle">Train Now</h2>
-                <div class="secction__titles">
-                    <h1 class="section__title-border">CHOOSE</h1>
-                    <h1 class="section__title">YOUR EXERCISE</h1>
+    <!------------------------------------------------------MAIN----------------------------------------->
+    <main class="home2 ">
+        <section class="homeprincipal section">
+            <div class="home_slider container grid">
+                <div class="wrapper">
+                    <div class="box" style="background: linear-gradient(rgba(0,0,0,.3), rgba('0,0,0,.3')), url('tools/img/training.gif');">
+                        <div class="contenido section__data">
+                            <h3>¡Es hora de entrenar!</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deserunt quibusdam provident dignissimos</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--featura section ------------>
+
+        <section class="features" id="features">
+            <h1 class=" titles heading"><span>GYM FEATURES</span></h1>
+            <div class="box-container">
+                <!------------->
+                <div class="box">
+
+                    <div class="image">
+                        <img src="tools/img/feature1.webp" alt="">
+                    </div>
+
+                    <div class="content_feature">
+                        <img src="tools/img/calculate.png" alt="">
+                        <div class="feature_data">
+                            <h3>body building</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat fuga, animi porro id ipsam iusto eos aliquid ab. Optio nam laborum error nisi quas officia doloribus porro possimus ipsam vel!</p>
+                            <a href="#" class="btnbox">Ver mas</a>
+                        </div>
+
+                    </div>
+                </div>
+                <!------------->
+                <div class="box second">
+                    <div class="image">
+                        <img src="tools/img/feature2.webp" alt="">
+                    </div>
+                    <div class="content_feature">
+                        <img src="tools/img/home.png" alt="">
+                        <div class="feature_data">
+                            <h3>Gym for men</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat fuga, animi porro id ipsam iusto eos aliquid ab. Optio nam laborum error nisi quas officia doloribus porro possimus ipsam vel!</p>
+                            <a href="#" class="btnbox">Ver mas</a>
+                        </div>
+
+                    </div>
+                </div>
+                <!------------->
+                <div class="box">
+                    <div class="image">
+                        <img src="tools/img/feature3.jpg" alt="">
+                    </div>
+                    <div class="content_feature">
+                        <img src="tools/img/choose3.png" alt="">
+                        <div class="feature_data">
+                            <h3>Gym for Woman</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat fuga, animi porro id ipsam iusto eos aliquid ab. Optio nam laborum error nisi quas officia doloribus porro possimus ipsam vel!</p>
+                            <a href="#" class="btnbox">Ver mas</a>
+                        </div>
+
+                    </div>
+                </div>
+                <!------------->
+            </div>
+        </section>
+
+        <!-----------------------------------TRAINING SECTION-------------------------------------------->
+        <section class="trainers" id="trainers">
+            <h1 class="heading"><span>Entrenadores Expertos</span></h1>
+            <div class="box-container">
+
+                <!---->
+                <div class="box-trainer">
+                    <img src="tools/img/choose3.png" alt="">
+                    <div class="content_trainer">
+                        <span>expert trainer</span>
+                        <h3>Sergio Sirena</h3>
+                        <div class="share">
+                            <ul class="footer__social">
+                                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link"><i class="ri-facebook-circle-fill"></i></a>
+                                <a href="https://twitter.com/" target="_blank" class="footer__social-link"><i class="ri-twitter-fill"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"  class="footer__social-link"><i class="ri-instagram-fill"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-trainer">
+                    <img src="tools/img/home (2).png" alt="">
+                    <div class="content_trainer">
+                        <span>expert trainer</span>
+                        <h3>Karla Zuñiga</h3>
+                        <div class="share">
+                            <ul class="footer__social">
+                                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link"><i class="ri-facebook-circle-fill"></i></a>
+                                <a href="https://twitter.com/" target="_blank" class="footer__social-link"><i class="ri-twitter-fill"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"  class="footer__social-link"><i class="ri-instagram-fill"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-trainer">
+                    <img src="tools/img/calcule3.png" alt="">
+                    <div class="content_trainer">
+                        <span>expert trainer</span>
+                        <h3>Angelica Barreros</h3>
+                        <div class="share">
+                            <ul class="footer__social">
+                                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link"><i class="ri-facebook-circle-fill"></i></a>
+                                <a href="https://twitter.com/" target="_blank" class="footer__social-link"><i class="ri-twitter-fill"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"  class="footer__social-link"><i class="ri-instagram-fill"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-trainer">
+                    <img src="tools/img/trainer1.png" alt="">
+                    <div class="content_trainer">
+                        <span>expert trainer</span>
+                        <h3>Fernanda Cuentas</h3>
+                        <div class="share">
+                            <ul class="footer__social">
+                                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link"><i class="ri-facebook-circle-fill"></i></a>
+                                <a href="https://twitter.com/" target="_blank" class="footer__social-link"><i class="ri-twitter-fill"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"  class="footer__social-link"><i class="ri-instagram-fill"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-----------------------------------CONTENIDO SECTION-------------------------------------------->
+        <section class="videos" id="videos">
+            <h1 class="heading"><span>Contenido</span></h1>
+            <div class="box-container">
+
+                <div class="box-video">
+                    <div class="image">
+                        <img src="tools/img/training.gif" alt="">
+                    </div>
+                    <div class="content_video">
+                        <div class="feature_data">
+                            <h3>Cardio core</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btnbox">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-video">
+                    <div class="image">
+                        <img src="tools/img/training2.gif" alt="">
+                    </div>
+                    <div class="content_video">
+                        <div class="feature_data">
+                            <h3>Tonifica Brazos</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                            <a href="#" class="btnbox">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-video">
+                    <div class="image">
+                        <img src="tools/img/train3.gif" alt="">
+                    </div>
+                    <div class="content_video">
+                        <div class="feature_data">
+                            <h3>Piernas Perfectas</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat fuga, </p>
+                            <a href="#" class="btnbox">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-video">
+                    <div class="image">
+                        <img src="tools/img/train4.gif" alt="">
+                    </div>
+                    <div class="content_video">
+                        <div class="feature_data">
+                            <h3>Gluteos Perfectos</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat fuga, </p>
+                            <a href="#" class="btnbox">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-video">
+                    <div class="image">
+                        <img src="tools/img/train5.gif" alt="">
+                    </div>
+                    <div class="content_video">
+                        <div class="feature_data">
+                            <h3>Tonifica Abdomen</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat fuga</p>
+                            <a href="#" class="btnbox">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-video">
+                    <div class="image">
+                        <img src="tools/img/train6.gif" alt="">
+                    </div>
+                    <div class="content_video">
+                        <div class="feature_data">
+                            <h3>Gym for Woman</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat fuga</p>
+                            <a href="#" class="btnbox">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-video">
+                    <div class="image">
+                        <img src="tools/img/train8.gif" alt="">
+                    </div>
+                    <div class="content_video">
+                        <div class="feature_data">
+                            <h3>Gym for Woman</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat fuga</p>
+                            <a href="#" class="btnbox">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="box-video">
+                    <div class="image">
+                        <img src="tools/img/train7.gif" alt="">
+                    </div>
+                    <div class="content_video">
+                        <div class="feature_data">
+                            <h3>Gym for Woman</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat fuga</p>
+                            <a href="#" class="btnbox">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
+
                 </div>
             </div>
 
-            <div class="trainer__container grid">
-                <article class="trainer__card ">
 
-                    <header class="trainer__header">
-                        <div class="trainer__shape">
-                            <img src="tools/img/choose5.png" alt="trainer image" class="trainer__img">
-                        </div>
-                        <h1 class="trainer__title">BASIC PACKGE</h1>
-                        <h2 class="trainer__number">$200</h2>
-                    </header>
+        </section>
+    </main>
+    
+    <!----------------------------------FOOTER home------------------------------------------------------->
+    <footer class="footer section" id="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <img src="tools/img/logo.png" alt="">FITNESS CLUB
+                </a>
 
-                    <ul class="trainer__list">
-                        <li class="trainer__item">
-                            <i class="ri-checkbox-circle-line"></i>5 Days In A Week
-                        </li>
-                        <li class="trainer__item">
-                            <i class="ri-checkbox-circle-line"></i>01 Sweatshirt
-                        </li>
-                        <li class="trainer__item trainer__item-opacity">
-                            <i class="ri-checkbox-circle-line "></i>01 Bottle of Protein
-                        </li>
-                        <li class="trainer__item trainer__item-opacity">
-                            <i class="ri-checkbox-circle-line"></i>Access to Videos
-                        </li>
-                        <li class="trainer__item trainer__item-opacity">
-                            <i class="ri-checkbox-circle-line"></i>Muscle Stretching
-                        </li>
+                <p class="footer__description">
+                    Suscribete a nuestra compañia <br>updates below.
+                </p>
 
-                    </ul>
-                    <a href="#" class="button button__flex trainer__button">Purchase Now
-                        <i class="ri-arrow-right-line"></i>
-                    </a>
-                </article>
 
-                <article class="trainer__card trainer__card-active">
 
-                    <header class="trainer__header">
-                        <div class="trainer__shape">
-                            <img src="tools/img/calculate.png" alt="trainer image" class="trainer__img">
-                        </div>
-                        <h1 class="trainer__title">PREMIUM PACKGE</h1>
-                        <h2 class="trainer__number">$250</h2>
-                    </header>
+                <p class="footer__message" id="contact-message"></p>
 
-                    <ul class="trainer__list">
-                        <li class="trainer__item">
-                            <i class="ri-checkbox-circle-line"></i>5 Days In A Week
-                        </li>
-                        <li class="trainer__item">
-                            <i class="ri-checkbox-circle-line"></i>01 Sweatshirt
-                        </li>
-                        <li class="trainer__item ">
-                            <i class="ri-checkbox-circle-line"></i>01 Bottle of Protein
-                        </li>
-                        <li class="trainer__item trainer__item-opacity">
-                            <i class="ri-checkbox-circle-line"></i>Access to Videos
-                        </li>
-                        <li class="trainer__item trainer__item-opacity">
-                            <i class="ri-checkbox-circle-line"></i>Muscle Stretching
-                        </li>
-
-                    </ul>
-                    <a href="#" class="button button__flex trainer__button">Purchase Now
-                        <i class="ri-arrow-right-line"></i>
-                    </a>
-                </article>
-
-                <article class="trainer__card trainer__card-active">
-
-                    <header class="trainer__header">
-                        <div class="trainer__shape">
-                            <img src="tools/img/choose3.png" alt="trainer image" class="trainer__img">
-                        </div>
-                        <h1 class="trainer__title">PREMIUM PACKGE</h1>
-                        <h2 class="trainer__number">$250</h2>
-                    </header>
-
-                    <ul class="trainer__list">
-                        <li class="trainer__item">
-                            <i class="ri-checkbox-circle-line"></i>5 Days In A Week
-                        </li>
-                        <li class="trainer__item">
-                            <i class="ri-checkbox-circle-line"></i>01 Sweatshirt
-                        </li>
-                        <li class="trainer__item ">
-                            <i class="ri-checkbox-circle-line"></i>01 Bottle of Protein
-                        </li>
-                        <li class="trainer__item trainer__item-opacity">
-                            <i class="ri-checkbox-circle-line"></i>Access to Videos
-                        </li>
-                        <li class="trainer__item trainer__item-opacity">
-                            <i class="ri-checkbox-circle-line"></i>Muscle Stretching
-                        </li>
-
-                    </ul>
-                    <a href="#" class="button button__flex trainer__button">Purchase Now
-                        <i class="ri-arrow-right-line"></i>
-                    </a>
-                </article>
             </div>
 
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">SERVICIOS</h3>
 
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Flexión Muscular</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Cardio</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Yoga Básico</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Levantamiento de Pesas</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div>
+                    <h3 class="footer__title">PRICING</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Básico</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Premium</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Diamond</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">COMPANY</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Customers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Partnes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </section>       
 
+        <div class="container">
+            <div class="footer__group">
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="https://twitter.com/" target="_blank" class="footer__social-link"><i class="ri-twitter-fill"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"  class="footer__social-link"><i class="ri-instagram-fill"></i></a>
+                </ul>
 
+                <span class="footer__copy">
+                    &#169; Copyright FITNESS CLUB. All rights reserved
+                </span>
+
+            </div>
+        </div>
+    </footer>
+    <!----------------------------------SCROLL UP------------------------------------------------------>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <!----------------------------------SCROLLREVEAL--------------------------------------------------->
+    <script src="tools/js/scrollreveal.min.js"></script>
+    <!----------------------------------CORREO JS----------------------------------------------------->
+    
+    <!----------------------------------MAIN-------------------------------------------------------->
+     <script src="tools/js/main.js"></script>
+    
 
 
 </body>
