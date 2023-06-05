@@ -1,0 +1,82 @@
+/*---------------estandarizacion-----------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #fafafa;
+    --puples: #a3065d;
+    --blue-light: #04d4c3;
+    --blue-dark: #2a73c2;
+    --green: #2c7b90;
+}
+
+body {
+    background: linear-gradient(to bottom, var(--puples), var(--blue-light));
+    height: 100vh;
+    font-family:'Quicksand',sans-serif;
+
+}
+
+/*---------------container-----------------*/
+.container{
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+/*---------------profile-----------------*/
+.profile h1{
+    color: var(--white);
+
+}
+
+.profile span{
+    color: var(--white);
+    letter-spacing: 1px;
+
+}
+
+#date{
+    color: var(--white);
+    padding: 50px 0 5px 0;
+}
+
+/*---------------work-----------------*/
+.add-work{
+   background-color: var(--white); 
+   border-radius: 15px;
+   height: 70px;
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   gap: 70px;
+
+}
+
+.add-work input{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--white);
+
+}
+
+.add-work #enter{
+    font-size: 50px;
+    color: var(--puples);
+}
+
+.add-work #enter:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.add-work input:placeholder{
+    font-size: 1.1rem;
+    color: var(--puples);
+}
