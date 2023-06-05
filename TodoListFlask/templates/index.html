@@ -10,24 +10,122 @@
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:ital,wght@1,300&family=Quicksand:wght@300;500;700&family=Red+Hat+Display:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title> TO DO LIST</title>
+
+    <style>
+        :root {
+        --white: #fafafa;
+        --puples: #cc17f0;
+        --blue-light: #04d4c3;
+        --blue-dark: #2a73c2;
+        --green: #2c7b90;
+        }
+        body {
+            background: linear-gradient(to bottom, var(--puples), var(--blue-light));
+            height: 100vh;
+            font-family:'Quicksand',sans-serif;
+        }
+
+        .container{
+            max-width: 80%;
+            width: 400px;
+            height: 600px;
+            margin: 0 auto;
+        }
+
+        a{
+            color: #fafafa;
+            border-radius: 8px;
+            text-decoration:none;
+            font-size: 13px;
+            margin-right: 3px;
+            margin-left: 3px;
+            padding: 3px 3px 3px 3px;
+        }
+
+        .a1{
+            background-color: rgb(4, 116, 9);
+        }
+
+        .a2{
+            background-color: rgb(6, 46, 226);
+        }
+
+        .a3{
+            background-color: rgb(226, 105, 6);
+        }
+
+        .input {
+
+            border-radius: 8px;
+            border: none;
+            background-color: var(--white);
+            width: 300px;
+        }
+
+        form{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        ul{
+            list-style-type: none;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-bottom: 7px;
+        }
+        ul li{
+            padding-bottom: 10px;
+            padding-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        ul li a {
+        text-decoration: none;
+        
+        }
+
+        button{
+            
+            background-color: rgb(182, 4, 4);
+            border: none;
+            border-radius: 8px;
+            color: #fafafa;
+            padding: 3px 3px 3px 3px;
+        }
+
+        span{
+            padding-right: 12px;
+            color: #fafafa;
+        }
+        
+
+    </style>
+
 </head>
 <body>
-    <h1>DEMO LISTA DE TAREAS</h1>
-    <ul>
-        {% for todo in todos %}
-        <li>
-            <input type="checkbox" name="done"{% if todo['done'] %} checked{%endif%} onchange="this.form.submit()" >
-            <span {% if todo['done'] %} style="text-decoration: line-through " {%endif%} > {{todo ['task']}}</span> 
-            <a href="{{url_for('check', index=loop.index0)}}">Realizado</a> 
-            <a href="{{url_for('edit', index=loop.index0)}}">Editar</a>   
-            <a href="{{url_for('delete', index=loop.index0)}}">Borrar</a>     
-        </li> 
-        {%endfor%}
-    </ul>
 
-    <form action="{{url_for('add')}}" method="post">
-        <input type="text" name="todo">
-        <button type="submit">Agregar Tarea</button>
+    <div class="container">
+
+        <h1>¡Hola! usuario</h1>
+        <h2>Crea tu lista de tareas</h2>
+        <ul>
+            {% for todo in todos %}
+            <li>
+                <input type="checkbox" name="done"{% if todo['done'] %} checked{%endif%} onchange="this.form.submit()" >
+                <span {% if todo['done'] %} style="text-decoration: line-through " {%endif%} > {{todo ['task']}}</span> 
+                <a href="{{url_for('check', index=loop.index0)}}" class="a1">Realizado</a> 
+                <a href="{{url_for('edit', index=loop.index0)}}" class="a2">Editar</a>   
+                <a href="{{url_for('delete', index=loop.index0)}}" class="a3">Borrar</a>     
+            </li> 
+            {%endfor%}
+        </ul>
+    
+        <form action="{{url_for('add')}}" method="post">
+            <input type="text" name="todo" class="input">
+            <button type="submit">Agregar Tarea</button>
+    </div>
+
 
 </body>
 </html>

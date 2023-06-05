@@ -5,6 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        :root {
+        --white: #fafafa;
+        --puples: #a3065d;
+        --blue-light: #04d4c3;
+        --blue-dark: #2a73c2;
+        --green: #2c7b90;
+        }
+        body {
+            background: linear-gradient(to bottom, var(--puples), var(--blue-light));
+            height: 100vh;
+            font-family:'Quicksand',sans-serif;
+        }
+
+    </style>
+    
 </head>
 <body>
     <form action="{{url_for('edit', index=index)}}" method="post">
