@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:ital,wght@1,300&family=Quicksand:wght@300;500;700&family=Red+Hat+Display:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> TO DO LIST</title>
+</head>
+<body>
+    <h1>DEMO LISTA DE TAREAS</h1>
+    <ul>
+        {% for todo in todos %}
+        <li>
+            <input type="checkbox" name="done"{% if todo['done'] %} checked{%endif%} onchange="this.form.submit()" >
+            <span {% if todo['done'] %} style="text-decoration: line-through " {%endif%} > {{todo ['task']}}</span> 
+            <a href="{{url_for('check', index=loop.index0)}}">Realizado</a> 
+            <a href="{{url_for('edit', index=loop.index0)}}">Editar</a>   
+            <a href="{{url_for('delete', index=loop.index0)}}">Borrar</a>     
+        </li> 
+        {%endfor%}
+    </ul>
+
+    <form action="{{url_for('add')}}" method="post">
+        <input type="text" name="todo">
+        <button type="submit">Agregar Tarea</button>
+
+</body>
+</html>
