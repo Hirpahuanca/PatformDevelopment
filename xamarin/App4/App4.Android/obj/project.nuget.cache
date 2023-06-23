@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mxGpEeflD5XSiXc3Z5fSAd9pAJF3487IvCTLR9MbvjmcLkz8VI6GO84EWucg9jsyCGJmOqnQqtgZrKMZIRkvSQ==",
+  "dgSpecHash": "7k8j35CnMtWY0r3k556LE0rtZy+HNg5If64Nxtw7ftBBkCR7Zqr2zwj3iQFJTJVEhwW3TV53lBNbdL++L8ju4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4.Android\\App4.Android.csproj",
+  "projectFilePath": "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4.Android\\App4.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usert\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\usert\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

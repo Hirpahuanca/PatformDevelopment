@@ -23,8 +23,14 @@ namespace App4.view
             string apellido = EntryApellido.Text;
             string email= EntryEmail.Text;
             string telf= EntryTelf.Text;
-            
-            await Application.Current.MainPage.Navigation.PushAsync(new Page2(nombre, apellido, email, telf));
+            string universidad= EntryUniversidad.Text;
+            string profesion= Entryprofesion.Text;
+            string idioma = EntryIdioma.Text;
+            string aptitud = EntryAptitudes.Text;
+            string experiencia = EntryExperiencia.Text;
+
+
+            await Application.Current.MainPage.Navigation.PushAsync(new Page2(nombre, apellido, email, telf,universidad,profesion, idioma,aptitud, experiencia));
         }
     }
 }

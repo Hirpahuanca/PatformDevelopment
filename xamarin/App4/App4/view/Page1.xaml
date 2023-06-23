@@ -34,7 +34,8 @@
                 <RowDefinition Height="auto" />
                 <RowDefinition Height="auto" />
                 <RowDefinition Height="auto" />
-                <RowDefinition Height="*" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" /> 
                 <RowDefinition Height="auto" />
             </Grid.RowDefinitions>
 
@@ -54,28 +55,36 @@
             <Label Grid.Row="4" Grid.Column="0"  Grid.ColumnSpan="2" VerticalTextAlignment="Center" />
             <Label Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Text="Formación Academica" FontSize="20" VerticalTextAlignment="Center" BackgroundColor="DeepSkyBlue" Padding="8"/>
 
+
             <Label Grid.Row="6" Grid.Column="0" Text="Universidad:" FontSize="20" VerticalTextAlignment="Center" />
-            <Entry x:Name="EntryUni" Grid.Row="6" Grid.Column="1" Placeholder="" FontSize="20" VerticalTextAlignment="Center"/>
-            
-            
-            <!-- -->
+            <Entry x:Name="EntryUniversidad" Grid.Row="6" Grid.Column="1" Placeholder="" FontSize="20" VerticalTextAlignment="Center"/>
 
-            <Label Grid.Row="7" Grid.Column="0"  Grid.ColumnSpan="2" VerticalTextAlignment="Center" />
-            <Label Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" Text="Skills" FontSize="20" VerticalTextAlignment="Center" BackgroundColor="DeepSkyBlue" Padding="8"/>
+            <Label Grid.Row="7" Grid.Column="0" Text="Profesión: " FontSize="20" VerticalTextAlignment="Center" />
+            <Entry x:Name="Entryprofesion" Grid.Row="7" Grid.Column="1" Placeholder="" FontSize="20" VerticalTextAlignment="Center"/>
 
-            <Label Grid.Row="9" Grid.Column="0" Text="Idiomas:" FontSize="20" VerticalTextAlignment="Center" />
-            <Entry x:Name=" err1" Grid.Row="9" Grid.Column="1" Placeholder="" FontSize="20" VerticalTextAlignment="Center"/>
+
 
             <!-- -->
 
-            <Label Grid.Row="10" Grid.Column="0"  Grid.ColumnSpan="2" VerticalTextAlignment="Center" />
-            <Label Grid.Row="11" Grid.Column="0" Grid.ColumnSpan="2" Text="Experiencia" FontSize="20" VerticalTextAlignment="Center" BackgroundColor="DeepSkyBlue" Padding="8"/>
+            <Label Grid.Row="8" Grid.Column="0"  Grid.ColumnSpan="2" VerticalTextAlignment="Center" />
+            <Label Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" Text="Skills" FontSize="20" VerticalTextAlignment="Center" BackgroundColor="DeepSkyBlue" Padding="8"/>
 
-            <Label Grid.Row="12" Grid.Column="0" Text="Lugar:" FontSize="20" VerticalTextAlignment="Center" />
-            <Entry x:Name="err " Grid.Row="12" Grid.Column="1" Placeholder="" FontSize="20" VerticalTextAlignment="Center"/>
+            <Label Grid.Row="10" Grid.Column="0" Text="" FontSize="20" VerticalTextAlignment="Center" />
+            <Entry x:Name=" EntryIdioma" Grid.Row="10" Grid.ColumnSpan="2" Placeholder="Idiomas" FontSize="20" VerticalTextAlignment="Center"/>
+
+            <Label Grid.Row="11" Grid.Column="0" Text="" FontSize="20" VerticalTextAlignment="Center" />
+            <Entry x:Name=" EntryAptitudes" Grid.Row="11" Grid.ColumnSpan="2" Placeholder="Aptitudes" FontSize="20" VerticalTextAlignment="Center"/>
 
             <!-- -->
-            <Button Grid.Row="14" Grid.Column="0" Grid.ColumnSpan="2" Text="Ver CV" Clicked="Button1_Clicked" VerticalOptions="Center" />
+
+            <Label Grid.Row="12" Grid.Column="0"  Grid.ColumnSpan="2" VerticalTextAlignment="Center" />
+            <Label Grid.Row="13" Grid.Column="0" Grid.ColumnSpan="2" Text="Experiencia" FontSize="20" VerticalTextAlignment="Center" BackgroundColor="DeepSkyBlue" Padding="8"/>
+
+            <Label Grid.Row="14" Grid.Column="0" Text=" " FontSize="20" VerticalTextAlignment="Center" />
+            <Entry x:Name=" EntryExperiencia" Grid.Row="14" Grid.ColumnSpan="2" Placeholder="Añadir" FontSize="20" VerticalTextAlignment="Center"/>
+
+            <!-- -->
+            <Button Grid.Row="16" Grid.Column="0" Grid.ColumnSpan="2" Text="Ver CV" Clicked="Button1_Clicked" VerticalOptions="Center" />
 
         </Grid>
     </ContentPage.Content>
