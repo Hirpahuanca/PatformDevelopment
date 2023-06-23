@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JGd7inRk6ZsnqVJ5ais03qfiWFY7gJym25KmWk3whitFSu009fcR0N/b2Wjn5IG70rf9jnvBGZauAxcn7r/mUg==",
+  "dgSpecHash": "wKqg5VeT3es/iRM8r4BwokCjKalPpSd9qXsJrWOijaRGbJ+MzpS7owAxkDCQYNM+xwdW6p542uCe56s7Y4oUyw==",
   "success": true,
-  "projectFilePath": "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4.iOS\\App4.iOS.csproj",
+  "projectFilePath": "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4.iOS\\App4.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usert\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\usert\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",

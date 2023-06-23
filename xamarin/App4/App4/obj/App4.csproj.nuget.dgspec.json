@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4\\App4.csproj": {}
+    "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4\\App4.csproj": {}
   },
   "projects": {
-    "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4\\App4.csproj": {
+    "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4\\App4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4\\App4.csproj",
+        "projectUniqueName": "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4\\App4.csproj",
         "projectName": "App4",
-        "projectPath": "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4\\App4.csproj",
+        "projectPath": "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4\\App4.csproj",
         "packagesPath": "C:\\Users\\usert\\.nuget\\packages\\",
-        "outputPath": "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4\\obj\\",
+        "outputPath": "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

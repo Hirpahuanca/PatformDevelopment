@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jK1wvuO6Q4gVqyAjW3j09iheafhc3hwRINNu2Ym0hhPFlbqdTTEkLcjS+sB/G+//ruriXoG5OS6WinyEP+ZAiw==",
+  "dgSpecHash": "KjXz3kPVjsTzCBwHvk8S2NQlkXihUYs+cwyVn3W+4qEzsly49BACgwjAe8/TyFK4WqNSnfLeV6GH0Oc3K7eiwQ==",
   "success": true,
-  "projectFilePath": "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4\\App4.csproj",
+  "projectFilePath": "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4\\App4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usert\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\usert\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

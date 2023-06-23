@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4.Android\\App4.Android.csproj",
+      "projectUniqueName": "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4.Android\\App4.Android.csproj",
       "projectName": "App4.Android",
-      "projectPath": "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4.Android\\App4.Android.csproj",
+      "projectPath": "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4.Android\\App4.Android.csproj",
       "packagesPath": "C:\\Users\\usert\\.nuget\\packages\\",
-      "outputPath": "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4.Android\\obj\\",
+      "outputPath": "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4\\App4.csproj": {
-              "projectPath": "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4\\App4.csproj"
+            "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4\\App4.csproj": {
+              "projectPath": "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4\\App4.csproj"
             }
           }
         }
@@ -3452,6 +3452,14 @@
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

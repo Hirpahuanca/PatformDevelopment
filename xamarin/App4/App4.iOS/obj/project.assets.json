@@ -1253,11 +1253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4.iOS\\App4.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4.iOS\\App4.iOS.csproj",
       "projectName": "App4.iOS",
-      "projectPath": "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4.iOS\\App4.iOS.csproj",
+      "projectPath": "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4.iOS\\App4.iOS.csproj",
       "packagesPath": "C:\\Users\\usert\\.nuget\\packages\\",
-      "outputPath": "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4.iOS\\obj\\",
+      "outputPath": "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1278,8 +1278,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4\\App4.csproj": {
-              "projectPath": "E:\\UCSP\\CICLO_2023-I\\PlatformDevelopment\\xamarin\\App4\\App4\\App4.csproj"
+            "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4\\App4.csproj": {
+              "projectPath": "C:\\Users\\usert\\Downloads\\xamarin\\App4\\App4\\App4.csproj"
             }
           }
         }

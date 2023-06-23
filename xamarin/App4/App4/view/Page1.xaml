@@ -80,7 +80,7 @@
             <Label Grid.Row="12" Grid.Column="0"  Grid.ColumnSpan="2" VerticalTextAlignment="Center" />
             <Label Grid.Row="13" Grid.Column="0" Grid.ColumnSpan="2" Text="Experiencia" FontSize="20" VerticalTextAlignment="Center" BackgroundColor="DeepSkyBlue" Padding="8"/>
 
-            <Label Grid.Row="14" Grid.Column="0" Text=" " FontSize="20" VerticalTextAlignment="Center" />
+            <Label Grid.Row="14" Grid.Column="0" Text=".." FontSize="20" VerticalTextAlignment="Center" />
             <Entry x:Name=" EntryExperiencia" Grid.Row="14" Grid.ColumnSpan="2" Placeholder="Añadir" FontSize="20" VerticalTextAlignment="Center"/>
 
             <!-- -->
